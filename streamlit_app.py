@@ -1,7 +1,7 @@
+import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import linprog
-import streamlit as st
 
 st.set_page_config(page_title="Linear Programming Solver", layout="centered")
 st.title("🧮 Linear Programming Solver")
